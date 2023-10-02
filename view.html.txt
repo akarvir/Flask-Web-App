@@ -1,0 +1,9 @@
+{% extends "based.html.txt" %}
+{% block title %}Today's Calories{% endblock %}
+{% block content %}
+    {% for item in values %}
+      <p>Name: <b>{{ item.name }}</b>, Calories : <b>{{ item.calories }}</b></p>
+    {% endfor %}
+    <p>Total Calories Consumed : {{total}}</p>
+{% endblock %}
+

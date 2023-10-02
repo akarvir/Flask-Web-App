@@ -1,0 +1,5 @@
+{% extends "based.html.txt" %}
+{% block title %}the navigation page{% endblock %}
+{% block content %}navigating through contacts{% endblock %}
+
+
